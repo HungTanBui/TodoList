@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #4b85cc;
+    background: linear-gradient(168deg,rgba(75, 133, 204, 1) 0%, rgba(55, 127, 206, 1) 8%, rgba(27, 118, 209, 1) 24%, rgba(30, 225, 247, 1) 59%, rgba(27, 118, 209, 1) 86%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+.container{
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    /* height: 450px; */
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+header{
+    padding: 7px;
+    height: 100%;
+    max-height: 110px;
+    background-color: rgb(67, 47, 198);
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 8px;
+}
+
+.input-section{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+input[type ="text"]{
+    flex: 1;
+    padding: 12px 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.input-section button{
+    padding: 12px 14px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.todo-container{
+    padding: 20px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: rgba(231, 234, 209, 0.848);
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.todo-item:hover{
+    box-shadow: 0px 8px 10px rgb(161, 158, 158);
+    transform: translateY(-8px);
+    transition: all 0.3s ease-in-out;
+}
+
+.todo-content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+input[type = "checkbox"]{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.todo-actions{
+    display: flex;
+    gap: 20px;
+}
+
+.todo-actions button{
+    background: none;
+    color: blue;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
