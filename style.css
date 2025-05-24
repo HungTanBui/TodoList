@@ -12,10 +12,10 @@ body{
 }
 
 
-.container{
+.containerr{
     background-color: white;
     width: 100%;
-    max-width: 600px;
+    max-width: 650px;
     /* height: 450px; */
     margin: 0 auto;
     margin-top: 50px;
@@ -70,17 +70,25 @@ input[type ="text"]{
     overflow-y: auto;
 }
 
+.todo-list{
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+
 .todo-item{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    margin-right: 10px;
     background-color: rgba(231, 234, 209, 0.848);
     height: 60px;
     width: 100%;
     padding: 10px;
     border-radius: 10px;
+    margin-right: 10px;
 }
+
 
 .todo-item:hover{
     box-shadow: 0px 8px 10px rgb(161, 158, 158);
@@ -92,7 +100,7 @@ input[type ="text"]{
     display: flex;
     align-items: center;
     gap: 10px;
-
+    margin-top: 10px !important;
 }
 
 input[type = "checkbox"]{
